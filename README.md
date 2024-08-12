@@ -9,3 +9,8 @@ En la clase 8 vemos los métodos antiguos
   display: table-cell;
   text-align: left;
   vertical-align: top;
+
+En la clase 12 vemos los métodos de flex-box
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
