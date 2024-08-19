@@ -1,0 +1,27 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.padre {
+    background-color: #791c78;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hijo {
+    height: 50px;
+}
+
+.hijo:nth-child(1) {
+    background-color: #f8c3cd;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nieto {
+    height: 25px;
+}
+
+.nieto:nth-child(1) {
+    background-color: #feefdc;
+}
