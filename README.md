@@ -21,3 +21,8 @@ Buenos recursos:
  - https://dev.to/raulmar/no-tengas-miedo-a-dibujar-con-css-1ck
  - https://gigantic.store/
  - https://dibujartecss.musarte.dev/
+
+Hacer un dibujo bueno en CSS y subirlo a este repo
+ - https://github.com/musartedev/dibujarte-css
+para que se publique en
+ - https://dibujartecss.musarte.dev/
