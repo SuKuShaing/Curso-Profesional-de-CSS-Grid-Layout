@@ -26,3 +26,19 @@ Hacer un dibujo bueno en CSS y subirlo a este repo
  - https://github.com/musartedev/dibujarte-css
 para que se publique en
  - https://dibujartecss.musarte.dev/
+
+
+Clase 19, Alineamiento
+Justify: alineamiento horizontal
+align: alineamiento vertical
+place: la combinación de los dos anteriores primero align y después justify
+
+Estas reglas alinean los elementos internos de cada una de las casillas
+Justify-items
+align-items
+place-items
+
+Estas reglas alinean el contenedor que es grid con respecto a quien lo contiene
+Justify-content
+align-content
+place-content
