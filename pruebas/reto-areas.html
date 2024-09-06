@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Areas</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            column-gap: 1rem;
+            height: 100vh;
+        }
+        .conta {
+            display: grid;
+            place-content: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;        
+            width: 600px;
+            height: 400px;
+        }
+
+        .container1 {
+            grid-template-areas: 
+                "img1 img2"
+                "img1 img3";        
+        }
+
+        .container2 {
+            grid-template-areas: 
+            "img1 img2"
+            "img3 img3";
+        }
+
+        .container div {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 20px;
+            box-shadow: 3px 5px 8px #211e1e;
+        }
+
+        .container1 div:nth-child(1) {
+            grid-area: img1;
+            background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg");
+        }
+
+        .container1 div:nth-child(2) {
+            grid-area: img2;
+            background-image: url("https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg");
+        }
+
+        .container1 div:nth-child(3) {
+            grid-area: img3;
+            background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg");
+        }
+
+        .container2 div:nth-child(1) {
+            grid-area: img1;
+            background-image: url("https://images.pexels.com/photos/2525903/pexels-photo-2525903.jpeg");
+        }
+
+        .container2 div:nth-child(2) {
+            grid-area: img2;
+            background-image: url("https://img.freepik.com/fotos-premium/escena-puesta-sol-detras-montana_1260066-3.jpg");
+        }
+
+        .container2 div:nth-child(3) {
+            grid-area: img3;
+            background-image: url("https://img.freepik.com/fotos-premium/vista-panoramica-mar-contra-cielo-puesta-sol_1048944-20042496.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="conta">
+        <div class="container container1">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="conta">
+        <div class="container container2">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
